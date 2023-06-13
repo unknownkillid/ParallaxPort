@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+:root {
+    --welcome-font: 'Satisfy', cursive;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.welcomeSection {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/mainBG/mainBG.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ground {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+
+
+
+.planetLeft {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+
+
+.planetMiddle {
+    position: absolute;
+    left: 40%;
+    bottom: 10%;
+}
+
+.planetRight {
+    right: -5%;
+    position: absolute;
+    top: -10%;
+}
+
+.headerText {
+    color: white;
+    font-size: 50px;
+    font-family: var(--welcome-font);
+}
